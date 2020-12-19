@@ -1,0 +1,16 @@
+{
+    "name": "Porn Blocker",
+    "version": "1.0",
+    "description": "Block the porn sites",
+    "content_scripts": [{
+        "matches": ["*://*.pornhub.com/*"],
+        "css": ["content.css"]
+    }],
+    "icons": {
+        "16": "danger.png",
+        "32": "danger.png",
+        "48": "danger.png",
+        "128": "danger.png"
+    },
+    "manifest_version": 2
+}
