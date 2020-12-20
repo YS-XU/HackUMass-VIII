@@ -1,12 +1,12 @@
 {
-    "name": "Porn Blocker",
+    "name": "Protector",
     "version": "1.0",
-    "description": "Block the porn sites",
+    "description": "Protecting your children by blurring the porn sites",
     "content_scripts": [{
         "matches": ["*://*.pornhub.com/*", "*://*.Legalporno.com/*", "*://*.Watch-My-GF.com/*",
         "*://*.YepXXX.com/*", "*://*.Watchmyexgf.net/*", "*://*.xvideos.com/*", "*://*.xhamster.com/*",
         "*://*.xnxx.com/*", "*://*.youporn.com/*", "*://*.spankbang.com/*", "*://*.redtube.com/*",
-        "*://*.tube8.com/*", "*://*.pornone.com/*", "*://*.pornhd.com/*", "*://*.thumbzilla.com/*"],
+        "*://*.tube8.com/*", "*://*.pornone.com/*", "*://*.pornhd.com/*", "*://*.thumbzilla.com/*", "*://*.bilibili.com/*"],
         "css": ["content.css"]
     }],
     "icons": {
