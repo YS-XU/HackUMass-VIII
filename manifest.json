@@ -3,7 +3,10 @@
     "version": "1.0",
     "description": "Block the porn sites",
     "content_scripts": [{
-        "matches": ["*://*.pornhub.com/*", "*://*.Legalporno.com/*", "*://*.Watch-My-GF.com/*"],
+        "matches": ["*://*.pornhub.com/*", "*://*.Legalporno.com/*", "*://*.Watch-My-GF.com/*",
+        "*://*.YepXXX.com/*", "*://*.Watchmyexgf.net/*", "*://*.xvideos.com/*", "*://*.xhamster.com/*",
+        "*://*.xnxx.com/*", "*://*.youporn.com/*", "*://*.spankbang.com/*", "*://*.redtube.com/*",
+        "*://*.tube8.com/*", "*://*.pornone.com/*", "*://*.pornhd.com/*", "*://*.thumbzilla.com/*"],
         "css": ["content.css"]
     }],
     "icons": {
